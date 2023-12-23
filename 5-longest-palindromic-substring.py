@@ -20,5 +20,6 @@ def longestPalindrome(s: str) -> str:
 
 print(longestPalindrome('babad')) #bab or aba
 print(longestPalindrome('cbbd')) #bb
-print(longestPalindrome('abb'))
-print(longestPalindrome('abcda'))
+print(longestPalindrome('abb')) #bb
+print(longestPalindrome('abcda')) #a
+print(longestPalindrome('racecar')) #racecar
