@@ -1,4 +1,5 @@
 import unittest
+from leetcode import *
 
 class TestAlgo(unittest.TestCase):
     pass
