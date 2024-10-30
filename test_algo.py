@@ -1,5 +1,5 @@
 import unittest
-from leetcode import *
+from leetcode.median_of_two_arrays import *
 
 class TestAlgo(unittest.TestCase):
     pass
