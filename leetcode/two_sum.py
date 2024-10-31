@@ -22,3 +22,14 @@ def two_sum(nums, target):
                 return [index, compare_index]
             else:
                 compare_index += 1
+
+# Second solution using Hash-Based lookup, O(n) time. 0ms, 17.85mb memory
+def two_sum_refactor(nums, target):
+    nums_map = {}
+
+    for index, num in enumerate(nums):
+        compliment = target - num
+        if compliment in nums_map:
+            return [nums_map[compliment], index]
+        else:
+            nums_map[num] = index
